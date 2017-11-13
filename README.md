@@ -11,15 +11,13 @@ In this project you will implement a 2 dimensional particle filter in C++. Your 
 ### Inputs to the Particle Filter
 You can find the inputs to the particle filter in the `data` directory. 
 
-#### The Map*
+#### The Map
 `map_data.txt` includes the position of landmarks (in meters) on an arbitrary Cartesian coordinate system. Each row has three columns
 1. x position
 2. y position
 3. landmark id
 
 #### All other data the simulator provides, such as observations and controls.
-
-> * Map data provided by 3D Mapping Solutions GmbH.
 
 
 ##### Simulator Output Recording
@@ -106,8 +104,4 @@ Your job is to build out the methods in `particle_filter.cpp` until the simulato
 ```
 Success! Your particle filter passed!
 ```
-
-
-
-
 
